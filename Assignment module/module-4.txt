@@ -1,0 +1,52 @@
+Que1. What is JavaScript?
+Ans. JavaScript is a Programming language that is one of the core technologies of the World Wide Web alongside HTML and CSS. As of 2022, 98% of Website use JavaScript on the client side for web page behavior, often incorporating third party libraries.
+Que2. What is the Use of NaN Function?
+Ans. In JavaScript NaN is short for “Not-a-Number”. The NaN() method returns true if a value is NaN. The NaN() methid converts the value to a number before testing it.
+Que3. What is Negative Infinity?
+Ans. Negative Infinity is the same as the Negative value of the global object’s Infinity property. This value behaves slightly differently than mathematical positive Infinity, multiplied by Negative Infinity is Negative Infinity.
+Que4. Which company Developed JavaScript?
+Ans. The first JavaScript engine was created by Brendan Eich at Netscape, for the Netscape Navigator Web browser. The engine, code-named SpiderMonkey, is implemented in C. It has since been updated (in JavaScript 1.5) to conform to ECMAScript 3.
+Que5. What are undeclared and undefined variables?
+Ans. The difference between undefined and undeclared variables in JavaScript is:
+Undefined variable means a variable has been declared but it does not have a value.
+Undeclared variable means that the variable does not exist in the program at all.
+Que6. Write the code for adding new elements dynamically?
+Ans. 
+<html> 
+<head> 
+<title>t1</title> 
+<script type="text/javascript"> 
+ function addNode() 
+     {var newP = document.createElement("p"); 
+   var textNode = document.createTextNode(" This is a new text node"); 
+   newP.appendChild(textNode);
+      document.getElementById("firstP").appendChild(newP); } 
+</script> </head> 
+<body> <p id="firstP">firstP<p> </body> 
+</html>
+Que7. What is the difference between ViewState and SessionState?
+Ans. The basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too. ViewState: It is maintained at only one level that is page-level.
+Que8. What is === operator?
+Ans. The strict equality operator ( === ) checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+Que9. How can the style/class of an element be changed?
+Ans. The class name is used as a selector in HTML which helps to give some value to the element attributes. The document. getElementById() method is used to return the element in the document with the “id” attribute and the “className” attribute can be used to change/append the class of the element.
+Que10. How to read and write a file using JavaScript?
+Ans. You cannot read or write files in JS on client side(browsers). This can be done on serverside using the fs module in Node.js. It provides sync and async functions to read and write files on the file system. Let us look at the exmaples of reading and writing files using the fs module on node.js
+Que11. What are all the looping structures in JavaScript?
+Ans. There are 4 Types of loops in JavaScript They are:-
+for - loops through a block of code a number of times.
+for/in - loops through the properties of an object.
+for/of - loops through the values of an iterable object.
+while - loops through a block of code while a specified condition is true.
+Que12. How can you convert the string of any base to an integer in JavaScript?
+Ans. To convert a string to an integer parseInt() function is used in javascript. parseInt() function returns Nan( not a number) when the string doesn’t contain number. If a string with a number is sent then only that number will be returned as the output. This function won't accept spaces. If any particular number with spaces is sent then the part of the number that presents before space will be returned as the output.
+Que13. What is the function of the delete operator?
+Ans. The delete operator removes a given property from an object. On successful deletion, it will return true , else false will be returned. However, it is important to consider the following scenarios: If the property which you are trying to delete does not exist, delete will not have any effect and will return true .
+Que14. What are all the types of Pop up boxes available in JavaScript?
+Ans. JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+Que15. What is the use of Void (0)?
+Ans. JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page.
+Que16. How can a page be forced to load another page in JavaScript?
+Ans. We can use window. location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.
+Que17. What are the disadvantages of using innerHTML in JavaScript?
+Ans. There is no append support without reparsing the whole innerHTML. This makes changing innerHTML directly very slow. innerHTML does not provide validation and therefore we can potentially insert valid and broken HTML in the document and break it.

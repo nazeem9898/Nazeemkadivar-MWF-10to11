@@ -1,0 +1,16 @@
+Que 1: What are the new tags added in HTML5?
+Ans:     There are many types of HTML new tags, they are:-  <article>, <canvas>, <command>,       <audio>, <video>, <datagrid>,  <datalist>, <datatemplet>, <details>, <dialog>, <embed>, <eventsource>, <figure>, <footer>, <header>, <mark>, <meter>, <nav>, <nest>, <output>, <progress>, <rule>, <section>, <source>, <time>.
+Que 2: How to embed audio and video in a webpage?
+Ans:     Video Element
+             The <video> element allows us to embed video files into an HTML, Very similar to the way images are embedded.
+Attribute we can include are:
+-1- “src “ This attribute stands for the source, which is very similar to the src attribute used in the image element. We will add the link to a video file in the src attribute.
+-2-“type” This is going to be Video/mp4 because .mp4 is the format of the video we are using. We can also use different video folders like .ogg or .webm, then the value of type attribute will change to video/ogg or video/WebM respectively.
+Audio Element
+The <audio> element is very similar to the video element. However, the only major different is that there are no visuals.
+We can use the audio element to play an audio file on our web page – such as an mp3 file.
+Que 3: Semantic element in HTML5?
+Ans: Semantic HTML5 Elements Explained Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <header>, <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+Que 4: Canvas and SVG tags
+Ans: SVG vs Canvas both are used for creating or developing images and shapes. The developers are using both SVG vs Canvas to solve their purpose according to the requirements like SVG is not used for creating applications like gaming. And canvas is not used for its poor rendering of text and lack of animation. Both SVG vs Canvas are used for creating rich graphics on the web, but they are fundamentally different.
+SVG mainly relies on files, whereas canvas mainly uses scripting. SVGs are considered to be more accessible as they support text, and canvas is dependent on javascript. So, the event that the browser does not support SVG but still text can be displayed. If javascript has been disable, then the device cannot be able to interpret the javascript output. So, it is always necessary to select the technology based on the requirement and its usage.
