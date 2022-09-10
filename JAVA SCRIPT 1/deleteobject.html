@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Delete Object Property</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	var students={
+		s1:"raj",
+		s2:"nazeem",
+		s3:"divya",
+		s4:"vidhi"
+	};
+	console.log(students)
+	students.s5="rahul";
+	document.write(students)
+	console.log(students)
+
+	document.write("<hr>")
+	document.write(students.s1 + "<br>")
+	document.write(students.s2 + "<br>")
+	document.write(students.s3 + "<br>")
+	document.write(students.s4 + "<br>")
+	document.write(students.s5 + "<br>")
+	
+	document.write("<hr>")
+	document.write("<h1>now delete object property</h1>")
+
+	delete students.s5
+	document.write(students.s5 + "<br>")
+
+
+
+
+</script>
+</html>

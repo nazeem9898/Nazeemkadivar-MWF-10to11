@@ -1,0 +1,27 @@
+<html>
+<body>
+
+<p id="test"></p>
+<button onclick="demo()">click here</button>
+
+<script>
+
+	function demo(){
+		var a=document.createElement("h1")
+		var b=document.createTextNode("welcome to my page")
+
+		a.appendChild(b)
+
+		var c=document.getElementById('test')
+		c.appendChild(a)
+	 // var x=document.createElement("h3")
+	// var y=document.createTextNode("this is h3 tag")
+	// x.appendChild(y)
+	// var z=document.getElementById('ad');
+	// z.appendChild(x)
+}
+	
+</script>
+
+</body>
+</html>

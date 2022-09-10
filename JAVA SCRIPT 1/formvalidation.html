@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	div{
+		height: 50px;
+		width: 200px;
+		border: 1px solid black;
+		padding: 10px;
+	}
+</style>
+<body>
+
+
+<input type="" name="" id="num">
+
+<button onclick="check()">click here</button>
+<br>
+<br>
+<!-- <p id="res"></p> -->
+<div id="res"></div>
+
+<script>
+// function myFunction() { 
+  
+//   let x = document.getElementById("numb").value;
+  
+//   let text;
+//   if (isNaN(x) || x < 1 || x > 10) {
+//     text = "Input not valid";
+//   } else {
+//     text = "Input OK";
+//   }
+//   document.getElementById("demo").innerHTML = text;
+// }
+// function check(){
+// 		var x=document.getElementById('num').value;
+
+// 			var text;
+// 			if(x<1 || x > 10 || isNaN(x))
+// 			{
+// 				text="Input is not Valid"
+// 			}
+// 			else{
+// 				text = "input is valid"
+// 			}
+// 				document.getElementById('res').innerHTML=text;
+
+// }
+
+function check()
+{
+	var t=document.getElementById('num').value;
+
+	var r;
+
+
+	if(t<1 || t>10 || isNaN(t))
+	{
+		// alert("input is not valid")
+		r="input is valid";
+	}
+	else
+	{
+		// alert("input is valid")
+		r="input is not valid"
+	}
+	document.getElementById("res").innerHTML=r;
+
+}
+
+</script>
+
+</body>
+</html> 
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form event 2</title>
+</head>
+<body>
+	<form action="">
+		<label for="">Name</label>
+		<input type="text" name="" id="fname" oninput="inputFunction(this)"><br>
+		<label for="">Surname</label>
+		<input type="text" name="" id="" oninput="inputFunction(this)"><br>
+		<label for="">Country</label>
+		<select id="" onfocus="focusFunction(this)">
+			<option value="india">India</option>
+			<option value="pakistan">Pakistan</option>
+			<option value="bangladesh">Bangladesh</option>
+			<option value="nepal">Nepal</option>
+			<option></option>
+		</select>
+
+	</form>
+
+		<div id="test" >
+			
+		</div>
+</body>
+<script>
+	function inputFunction(element){
+		var x=element.value;
+		document.getElementById('test').innerHTML=x;
+	}
+	// function inputFunction(element){
+		
+	// 	var x = element.value;
+	// 	document.getElementById('test').innerHTML=x;
+	// }
+</script>
+</html>
+
+
+
+
+
+

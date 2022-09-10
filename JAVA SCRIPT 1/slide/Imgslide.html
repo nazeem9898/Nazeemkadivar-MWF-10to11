@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>image slider</title>
+	<style>
+		div{
+				height: 100%;
+				background: blue;
+
+	}
+
+
+	</style>
+</head>
+<body>
+	<div>
+		<img class="i1" src="banner1.jpg" height="100%" width="100%">
+		<img class="i1" src="banner2.jpg" height="100%" width="100%">
+		<img class="i1" src="banner3.jpg" height="100%" width="100%">
+		<!-- <img class="i1" src="back.jpg" height="100%" width="100%">
+		<img class="i1" src="bg.jpg" height="100%" width="100%">
+		<img class="i1" src="bg1.jpg" height="100%" width="100%">
+		<img class="i1" src="bg2.jpg" height="100%" width="100%">
+		<img class="i1" src="chef.jpg" height="100%" width="100%">
+		<img class="i1" src="chef1.jpg" height="100%" width="100%">
+		<img class="i1" src="dish.jpg" height="100%" width="100%">
+		<img class="i1" src="eat.jpg" height="100%" width="100%">
+		<img class="i1" src="bg3.jpg" height="100%" width="100%"> -->
+
+
+</div>
+</body>
+<script type="text/javascript">
+
+
+	counter = 0;
+	function slider(){
+		 ar = document.getElementsByClassName('i1')
+		 for(var i=0; i<ar.length; i++){
+		 	ar[i].style.display= "none";
+		 } 
+		 if(counter == ar.length){
+		 		counter = 0;
+		 	}
+		 ar[counter].style.display ="block";
+		 counter++
+		 setTimeout(slider,1000)
+	}
+	slider();
+</script>
+
+</html>
+
+
+
+
+
+
+

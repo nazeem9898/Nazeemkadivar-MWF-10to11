@@ -1,0 +1,89 @@
+<html>
+<body>
+
+<h2>JavaScript Validation</h2>
+
+<form>
+
+<label>username</label><input type="text" name="username" placeholder="enter your username" value="" required><br><br>
+
+  <label>password</label>  <input type="password" id="ps"><br>
+
+  <input type="checkbox" onclick="show()">Show Password<br>
+  <br>
+  <input type="submit" name="" value="login">
+</form>
+
+    
+var	a=10;
+var b=10;
+
+	a==b;
+
+	a===b
+
+
+
+<p>If you click submit, without filling out the text field,
+your browser will display an error message.</p>
+
+</body>
+<script>
+
+	function show()
+	{
+		var x=document.getElementById('ps')
+
+		if(x.type === "password")
+		{
+			x.type = "text"
+		}
+		else
+		{
+			x.type = "password"
+		}
+
+
+
+	}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  // function shw(){
+
+  //   var x =document.getElementById('ps')
+    
+  //   if(x.type === "password"){
+  //     x.type="text"
+  //   }
+  //   else
+  //   {
+  //     x.type="password"
+  //   }
+  // }
+ 
+</script>
+
+</html>
+
+
+
+
+
+

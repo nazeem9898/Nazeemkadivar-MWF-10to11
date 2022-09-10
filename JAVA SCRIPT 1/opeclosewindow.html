@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>open close window</title>
+</head>
+<body>
+
+
+		<button onclick="openWindow()">click here to open Google</button>
+		<button onclick="closeWindow()">click here to close Google</button>
+	<!-- <button onclick="openWindow()">open google</button>
+	
+	<button onclick="closeWindow()">close the window</button> -->
+
+
+
+
+
+</body>
+<script type="text/javascript">
+	
+	var myWindow;
+	function openWindow(){
+		myWindow=window.open("https://www.google.com/","_blank","width=2000px, height=500px")
+	}
+	function closeWindow(){
+		myWindow.close();
+	}
+		
+
+
+	// var myWindow;
+	// function openWindow(){
+		
+	// 	  myWindow = window.open("https://www.google.co.in/","_blank","width=2000px, height=2000px")
+	// y}
+	// function closeWindow(){
+	// 	myWindow.close();
+	// }
+
+
+
+	// function openWindow(){
+		
+	// 	myWindow = window.open("https://www.google.co.in/","_blank","width=2000px, height=2000px")
+	// }
+	// function closeWindow()
+	// {
+	// 	myWindow.close()
+	// }
+
+</script>
+</html>
