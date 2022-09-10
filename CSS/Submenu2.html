@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DropDown Menu</title>
+	<style type="text/css">
+		.item{
+			position: relative;
+			width: 200px;
+			border: 1px solid black;
+		}
+		button{
+			width: 200px;
+			font-size: 20px;
+			cursor: pointer;
+		}
+		.item-list{
+			width: 200px;
+			position: absolute;
+			border: 1px solid black;
+			display: none;
+
+
+		}
+		.item-list a{
+			display: block;
+			text-decoration: none;
+			padding: 5px 16px;
+			font-size: 20px;
+
+		}
+		.item:hover .item-list{
+			display: block;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="item">
+		<button>Products</button>
+		<div class="item-list"> 
+			<a href="">Electrics</a>
+			<a href="">Bluetooth Product</a>
+			<a href="">LCD Products</a>
+			<a href="">Wired Products</a>
+		</div>
+	</div>
+
+</body>
+</html>

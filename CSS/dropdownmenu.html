@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Drop Down Menu</title>
+	<style type="text/css">
+		.service{
+			position: relative;
+			display: inline-block;
+			width: 160px;
+			border: 1px solid black;
+		}
+		button{
+			font-size: 16px;
+			padding: 12px;
+			width: 160px;
+			cursor: pointer;
+		}
+		.sub{
+			display: none;
+			min-width: 160px;
+			position: absolute;
+			border: 1px solid black;
+		}
+		.sub a{
+			display: inline-block;
+			text-decoration: none;
+			padding: 10px;
+		}
+		.service:hover .sub{
+			display: block;
+		}
+		
+	</style>
+</head>
+<body>
+
+<div class="service">
+	<button>Services</button>
+	<div class="sub">
+		<a href="">Online Services</a>
+		<a href="">Offline Services</a>
+	</div>
+</div>
+
+
+
+</body>
+</html>

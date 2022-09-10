@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Submenu</title>
+	<style type="text/css">
+		.menu{
+			width: 100%;
+			height: 80px;
+			border: 1px solid black;
+			padding: 15px;
+			background: black;
+		}
+		.menu a{
+			width: 100%;
+			height: 50px;
+			padding: 15px;
+			color: white;
+			text-decoration: none;
+			font-size: 20px;
+			/*border: 1px solid black;*/
+		}
+		.btn{
+			border: none;
+			background: inherit;
+			color: white;
+			font-size: inherit;
+			width: 100px;
+		}
+		.content{
+			display: none;
+			height: 50px;
+			/*width: 100px;*/
+			/*border: 1px solid white;*/
+			margin-left: 270px;
+		}
+		.content .items{
+			border: 1px solid white;
+			padding: 2px;
+			/*display: block;*/
+			/*background: yellow;*/
+			width: 150px;
+
+			margin-top: 0px;
+				
+
+
+		}
+		.sub:hover .content{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="menu">
+		<a href="">Home</a>
+		<a href="">About</a>
+		<a href="">Product</a>
+		<div class="sub">
+		<button class="btn">Service</button>
+		<div class="content">
+			<a class="items" href="">Online Service</a><br>
+			<a class="items" href="">Offline Service</a>
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>
