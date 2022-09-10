@@ -1,0 +1,64 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<style> 
+  div{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    
+  }
+.div1, .div2 {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+.div2 {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div>
+<button id="btn">start sliding</button>
+<button id="btn2">Stop sliding</button>
+</div>
+
+<br>
+<div class="div1">Click to slide down panel</div>
+<div class="div2">Hello world!</div>
+<br>
+<br>
+
+
+</body>
+<script> 
+  $(document).ready(function(){
+    $("#btn").click(function(){
+    	$(".div2").slideToggle(5000);
+  });
+    $("#btn2").click(function(){
+    	$(".div2").stop()
+    			
+
+    })
+
+});
+</script>
+</html>
+
+
+
+
+
+
+
+

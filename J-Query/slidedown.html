@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>slide down</title>
+	<style type="text/css">
+			#main{
+				height: 100px;
+				background: greenyellow;
+				text-align: center;
+				font-size: 40px;
+			}
+			#content{
+				height: 100px;
+				background:pink;
+				text-align: center;
+				font-size: 40px;	
+				display: none;
+			}
+
+	</style>
+</head>
+<body>
+
+		<div id="main"> click below to start slide<br>
+			<button>Slide Down</button>
+			<button class="btn">Slide Up</button>
+		</div>
+		<div id="content">This is Slide</div>
+
+</body>
+<script type="text/javascript">
+	
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("#content").slideDown()
+			});
+			$(".btn").click(function(){
+				$("#content").slideUp()
+			});
+		});
+
+
+</script>
+</html>

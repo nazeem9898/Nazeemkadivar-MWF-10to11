@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>show the tag</title>
+</head>
+<body>
+	<h1>this is J-Query</h1>
+	<button>Hide</button>
+	<button id="btn">Show</button>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("h1").hide()
+		});
+		$("#btn").click(function(){
+			$("h1").show()
+		})
+
+	});
+</script>
+</html>

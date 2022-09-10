@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>No- Conflict</title>
+</head>
+<body>
+	<h1>this is h1 tag</h1>
+	<button> click here</button>
+
+</body>
+<script type="text/javascript">
+
+	// 	var bhavik=$.noConflict()
+
+	// bhavik(document).ready(function(){
+	// 	bhavik("button").click(function(){
+	// 		bhavik("h1").css("color","red")
+	// 	})
+	// })
+
+			var j=$.noConflict()
+ 			j(document).ready(function(){
+ 				j("button").click(function(){
+ 					j("h1").css("backgroundColor","red")
+ 				})
+ 			})
+
+
+
+</script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>Call Back</title>
+</head>
+<body>
+
+	<p>This is p tag</p>
+	<button id="test">click here</button>
+
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#test").click(function(){
+			$("p").hide( function(){
+				alert("p is hide")
+			});
+		});
+
+	});
+</script>
+</html>

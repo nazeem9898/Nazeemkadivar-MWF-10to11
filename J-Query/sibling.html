@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+  display: block;
+  border: 2px solid lightgrey;
+  color: lightgrey;
+  padding: 5px;
+  margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <h1>h1</h1>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <h4>h4</h4>
+  <h5>h5</h5>
+</div>
+
+</body>
+<script>
+// $(document).ready(function(){
+//   $("h2").siblings().css({"color": "red", "border": "2px solid red"});
+// });
+// $(document).ready(function(){
+//   $("h3").siblings().css({"background-color": "coral", "border": "5px solid black"});
+// })
+
+
+    $(document).ready(function(){
+      $("h3").siblings().css("background-color","Blue")
+    });
+
+
+
+
+</script>
+</html>
