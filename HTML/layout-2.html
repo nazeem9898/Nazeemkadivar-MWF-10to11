@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>layout</title>
+	<style type="text/css">
+		.header{
+			height: 80px;
+			width: 100%;
+			background: orange;
+			border: 1px solid black;
+		}
+		.logo{
+			width: 20%;
+			float: left;
+			height: 80px;
+			font-size: 40px;
+			border: 1px solid black;
+		}
+		.cname{
+			width: 79%;
+			float: left;
+			height: 80px;
+			font-size: 40px;
+			/*border: 1px solid black;	*/
+		}
+		.nav{
+			background: grey;
+			height: 80px;
+		}
+		.nav ul{
+			display: flex;
+		}
+		.nav ul li{
+			list-style: none;
+			font-size: 40px;
+			padding: 10px;
+			margin-left: 100px;
+		}
+		.main{
+			background: lightcoral;
+			height: 500px;
+			display: flex;
+			justify-content: space-between;
+		}
+		.col1{
+			width: 31%;
+			height: 500px;
+			background: orange;
+			border: 1px solid black;
+		}
+				.col2{
+			width: 31%;
+			height: 500px;
+			background: white;
+			border: 1px solid black;
+		}
+				.col3{
+			width: 31%;
+			height: 500px;
+			background: green;
+			border: 1px solid black;
+		}
+	</style>
+
+</head>
+<body>
+
+<!-- 		header
+				logo
+				cname
+		navbar	
+				list
+		main-body
+			sidebar
+			article
+		main-body-2
+			part-3
+		footer -->
+
+
+			<div class="header">
+				<div class="logo">LOGO</div>
+				<div class="cname" align="center">COMPANY NAME</div>
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Service</li>
+					<li>Product</li>
+				</ul>
+			</div>
+
+			<div class="main">
+				<div class="col1"> this is col-1</div>
+				<div class="col2">this is col-2</div>
+				<div class="col3">this is col-3</div>
+
+			</div>
+			<div class="footer" style="background: red;">
+				<h1 align="center">this is footer</h1></div>
+</body>
+</html>
+
+
+
