@@ -1,0 +1,103 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(133, 208, 237);
+    
+}
+h1{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+
+.sec1{
+    background-color: rgb(253, 247, 247);
+    margin-top: 10px;
+    height: 90px;
+    width: 80%;
+    margin-left: 10%;
+}
+.sec1 h3{
+    padding-left: 20px;
+}
+.second i{
+    color: red;
+}
+span{
+    color: red;
+}
+.span{
+    color: skyblue;
+}
+
+.main{
+    display: flex;
+    padding-top: 10px;
+}
+
+.main .first h4{
+    padding-left: 20px;
+}
+.sec1 .main .second{
+    margin-left: 25%;
+}
+.sec1 .main .third{
+    margin-left: 20%;
+}
+.third i{
+    color: red;
+}
+
+.sec2{
+    background-color: rgb(253, 247, 247);
+    height: 380px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    display: flex;
+}
+.sec2 .part1{
+    height: 100%;
+    width: 50%;
+}
+.sec2 .part1 input{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 7px;
+}
+.sec2 .part1 textarea{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 7px;
+}
+.sec2 .part1 button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+.sec2 .part2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.sec2 .part2 iframe{
+    height: 80%;
+    width: 90%;
+    margin-top: 20px;
+}
+.sec2 .part2 i{
+    padding: 5px;  
+}
+
+
